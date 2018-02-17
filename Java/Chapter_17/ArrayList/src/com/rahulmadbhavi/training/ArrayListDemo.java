@@ -158,5 +158,7 @@ class ArrayListDemo
 		System.out.println("arrayList3 contains : ");
 		printArrayList(arrayList3);
 
+		System.out.println("arrayList3 : " + arrayList3);
+		System.out.println();
 	}
 }
