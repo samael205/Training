@@ -19,9 +19,9 @@ class ArrayListDemo
 
 	public static void main(String args[])
 	{
-		ArrayList<String> arrayList = new ArrayList<String>();
-		ArrayList<String> arrayList2 = new ArrayList<String>();
-		Iterator<String> iterator;
+		List<String> arrayList = new ArrayList<String>();
+		List<String> arrayList2 = new ArrayList<String>();
+		List<String> arrayList3 = new ArrayList<String>();
 
 		System.out.println();
 
@@ -109,7 +109,7 @@ class ArrayListDemo
 		System.out.println("Printing array of strings : ");
 		for(int i=0; i<numbers.length; i++)
 		{
-			System.out.println("numbers[i] : " + numbers[i]);
+			System.out.println("numbers[" + i + "] : " + numbers[i]);
 		}
 		System.out.println();
 
@@ -119,5 +119,44 @@ class ArrayListDemo
 
 		System.out.println("arrayList2.size() : " + arrayList2.size());
 		System.out.println();
+
+		System.out.println("arrayList contains : ");
+		printArrayList(arrayList);
+
+		System.out.println("arrayList.add(2, \"Four\")");
+		arrayList.add(2, "Four");
+		System.out.println();
+
+		System.out.println("arrayList contains : ");
+		printArrayList(arrayList);
+
+		System.out.println("arrayList.get(3) : " + arrayList.get(3));
+		System.out.println();
+
+		System.out.println("arrayList.indexOf(\"Four\") : " + arrayList.indexOf("Four"));
+		System.out.println();
+
+		System.out.println("arrayList.lastIndexOf(\"Four\") : " + arrayList.lastIndexOf("Four"));
+		System.out.println();
+
+		System.out.println("arrayList.remove(2) : " + arrayList.remove(2));
+		System.out.println();
+
+		System.out.println("arrayList contains : ");
+		printArrayList(arrayList);
+
+		System.out.println("arrayList.set(2, \"Six\") : " + arrayList.set(2, "Six"));
+		System.out.println();
+
+		System.out.println("arrayList contains : ");
+		printArrayList(arrayList);
+
+		arrayList3 = arrayList.subList(2, 5);
+		System.out.println("arrayList3 = (ArrayList<String>) arrayList.subList(2, 5);");
+		System.out.println();
+
+		System.out.println("arrayList3 contains : ");
+		printArrayList(arrayList3);
+
 	}
 }
