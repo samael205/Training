@@ -112,5 +112,12 @@ class ArrayListDemo
 			System.out.println("numbers[i] : " + numbers[i]);
 		}
 		System.out.println();
+
+		System.out.println("arrayList2.clear()");
+		arrayList2.clear();
+		System.out.println();
+
+		System.out.println("arrayList2.size() : " + arrayList2.size());
+		System.out.println();
 	}
 }
