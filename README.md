@@ -19,20 +19,20 @@ Collection of code for learning Java.
 14. [String Handling](Java/Chapter_15)
 15. [Exploring java.lang](Java/Chapter_16)
 16. [Collections Framework](Java/Chapter_17)
+17. [Utility Classes](Java/Chapter_18)
 
 ## Coming soon
 ### Java
-1. Utility Classes
-2. Exploring java.io
-3. Networking
-4. Applet Class
-5. Event Handling
-6. AWT: Working with Windows, Graphics and Text
-7. Using AWT Controls, Layout Managers and Menus
-8. Images
-9. Concurrency Utilities
-10. NIO, Regular Expressions and Other Packages
-11. Java Beans
-12. Basics of Swing
-13. Exploring Swing
-14. Servlets
+* Exploring java.io
+* Networking
+* Applet Class
+* Event Handling
+* AWT: Working with Windows, Graphics and Text
+* Using AWT Controls, Layout Managers and Menus
+* Images
+* Concurrency Utilities
+* NIO, Regular Expressions and Other Packages
+* Java Beans
+* Basics of Swing
+* Exploring Swing
+* Servlets
