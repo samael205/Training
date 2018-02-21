@@ -1,0 +1,20 @@
+# Enumerations, Autoboxing and Annotations
+
+## Contents
+1. [Enumeration Example 1](EnumDemo/src/com/rahulmadbhavi/training)
+2. [Enumeration Example 2](EnumDemo2/src/com/rahulmadbhavi/training)
+3. [Enumeration Example 3](EnumDemo3/src/com/rahulmadbhavi/training)
+4. [Enumeration Example 4](EnumDemo4/src/com/rahulmadbhavi/training)
+5. [Enumeration Example 5](EnumDemo5/src/com/rahulmadbhavi/training)
+6. [Wrapper Class Example](Wrap/src/com/rahulmadbhavi/training)
+7. [Autoboxing Example 1](Autobox/src/com/rahulmadbhavi/training)
+8. [Autoboxing Example 2](AutoBox2/src/com/rahulmadbhavi/training)
+9. [Autoboxing Example 3](AutoBox3/src/com/rahulmadbhavi/training)
+10. [Autoboxing Example 4](AutoBox4/src/com/rahulmadbhavi/training)
+11. [Autoboxing Example 5](AutoBox5/src/com/rahulmadbhavi/training)
+12. [Annotation Example 1](Annotation/src/com/rahulmadbhavi/training)
+13. [Annotation Example 2](Annotation2/src/com/rahulmadbhavi/training)
+14. [Annotation Example 3](Annotation3/src/com/rahulmadbhavi/training)
+15. [Annotation Example 4](Annotation4/src/com/rahulmadbhavi/training)
+16. [Annotation Example 5](Annotation5/src/com/rahulmadbhavi/training)
+17. [Annotation Example 6](Annotation6/src/com/rahulmadbhavi/training)
