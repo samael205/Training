@@ -1,4 +1,4 @@
-4# I/O, Applets and Other Topics
+# I/O, Applets and Other Topics
 
 ## Contents
 1. [Reading Characters from Console](ReadingCharacters/src/com/rahulmadbhavi/training)
