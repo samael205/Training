@@ -18,7 +18,7 @@ Collection of code for learning Java.
 13. [Generics](Java/Chapter_14)
 14. [String Handling](Java/Chapter_15)
 15. [Exploring java.lang](Java/Chapter_16)
-16. [Colletions Framework](Java/Chapter_17)
+16. [Collections Framework](Java/Chapter_17)
 
 ## Coming soon
 ### Java
