@@ -2,7 +2,7 @@
 Collection of code for learning Java.
 
 ## Contents
-A. Java
+1. Java
 	1. Overview of Java.
 	2. Data Types, Variables and Arrays
 	3. Operators
@@ -22,18 +22,18 @@ A. Java
 
 
 ## Coming soon
-A.	Java
-	17. Utility Classes
-	18. Exploring java.io
-	19. Networking
-	20. Applet Class
-	21. Event Handling
-	22. AWT: Working with Windows, Graphics and Text
-	23. Using AWT Controls, Layout Managers and Menus
-	24. Images
-	25. Concurrency Utilities
-	26. NIO, Regular Expressions and Other Packages
-	27. Java Beans
-	28. Basics of Swing
-	29. Exploring Swing
-	30. Servlets
+1.	Java
+	1. Utility Classes
+	2. Exploring java.io
+	3. Networking
+	4. Applet Class
+	5. Event Handling
+	6. AWT: Working with Windows, Graphics and Text
+	7. Using AWT Controls, Layout Managers and Menus
+	8. Images
+	9. Concurrency Utilities
+	10. NIO, Regular Expressions and Other Packages
+	11. Java Beans
+	12. Basics of Swing
+	13. Exploring Swing
+	14. Servlets
