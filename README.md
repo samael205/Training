@@ -1,9 +1,11 @@
 # Training
 Collection of code for learning Java.
 
+[Overview of Java](Java/Chapter_02)
+
 ## Contents
 ### Java
-	1. [Overview of Java](https://github.com/Rahul-Madbhavi/Training/tree/master/Java/Chapter_02)
+	1. [Overview of Java](Java/Chapter_02)
 	2. Data Types, Variables and Arrays
 	3. Operators
 	4. Control Statements
