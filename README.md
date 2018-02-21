@@ -2,7 +2,7 @@
 Collection of code for learning Java.
 
 ## Contents
-1. Java
+### Java
 	1. Overview of Java.
 	2. Data Types, Variables and Arrays
 	3. Operators
@@ -22,7 +22,7 @@ Collection of code for learning Java.
 
 
 ## Coming soon
-1.	Java
+### Java
 	1. Utility Classes
 	2. Exploring java.io
 	3. Networking
