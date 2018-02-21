@@ -1,0 +1,20 @@
+# Data Types, Variables and Arrays
+
+## Contents
+1. [Long Variable](LongVariable/src)
+2. [Double Variable](DoubleVariable/src)
+3. [Char Variable Example 1](CharVariable/src)
+4. [Char Variable Example 2](CharVariable2/src)
+5. [Boolean Variable](BooleanVariable/src)
+6. [Dynamic Initialisation of Varibles](DynamicInitialisation/src)
+7. [Scope of Variables](Scope/src)
+8. [Life Time of Variables](LifeTime/src)
+9. [Type Conversion](TypeConversion/src)
+10. [Automatic Type Conversion](AutomaticTypeConversion/src)
+11. [Type Promotion](TypePromotion/src)
+12. [One Dimensional Array](OneDArray/src)
+13. [Two Dimensional Array Example 1](TwoDArray/src)
+14. [Two Dimensional Array Example 2](TwoDArray2/src)
+15. [Two Dimensional Array Example 3](TwoDArray3/src)
+16. [Three Dimensional Array](ThreeDArray/src)
+17. [String Variable](StringVariable/src)
