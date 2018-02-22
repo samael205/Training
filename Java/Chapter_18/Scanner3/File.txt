@@ -1,0 +1,8 @@
+Testing
+Scanner
+10
+12.2
+one
+true
+two
+false
