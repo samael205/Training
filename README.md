@@ -20,10 +20,10 @@ Collection of code for learning Java.
 15. [Exploring java.lang](Java/Chapter_16)
 16. [Collections Framework](Java/Chapter_17)
 17. [Utility Classes](Java/Chapter_18)
+18. [Exploring java.io](Java/Chapter_19)
 
 ## Coming soon
 ### Java
-* Exploring java.io
 * Networking
 * Applet Class
 * Event Handling
