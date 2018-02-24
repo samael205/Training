@@ -21,10 +21,10 @@ Collection of code for learning Java.
 16. [Collections Framework](Java/Chapter_17)
 17. [Utility Classes](Java/Chapter_18)
 18. [Exploring java.io](Java/Chapter_19)
+19. [Networking](Java/Chapter_20)
 
 ## Coming soon
 ### Java
-* Networking
 * Applet Class
 * Event Handling
 * AWT: Working with Windows, Graphics and Text
