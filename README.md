@@ -23,10 +23,10 @@ Collection of code for learning Java.
 18. [Exploring java.io](Java/Chapter_19)
 19. [Networking](Java/Chapter_20)
 20. [Applet Class](Java/Chapter_21)
+21. [Event Handling](Java/Chapter_22)
 
 ## Coming soon
 ### Java
-* Event Handling
 * AWT: Working with Windows, Graphics and Text
 * Using AWT Controls, Layout Managers and Menus
 * Images
