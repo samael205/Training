@@ -17,4 +17,4 @@
 14. [Font Information Example](FontInfo)
 15. [Multi Line Text Example](MultiLines)
 16. [Center Align Text Example](CenterText)
-17. [Text Alignment Example](TextAlingment)
+17. [Text Alignment Example](TextAlignment)
