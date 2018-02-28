@@ -25,10 +25,10 @@ Collection of code for learning Java.
 20. [Applet Class](Java/Chapter_21)
 21. [Event Handling](Java/Chapter_22)
 22. [AWT: Working with Windows, Graphics and Text](Java/Chapter_23)
+23. [Using AWT Controls, Layout Managers and Menus](Java/Chapter_24)
 
 ## Coming soon
 ### Java
-* Using AWT Controls, Layout Managers and Menus
 * Images
 * Concurrency Utilities
 * NIO, Regular Expressions and Other Packages
