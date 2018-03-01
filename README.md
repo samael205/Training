@@ -26,10 +26,10 @@ Collection of code for learning Java.
 21. [Event Handling](Java/Chapter_22)
 22. [AWT: Working with Windows, Graphics and Text](Java/Chapter_23)
 23. [Using AWT Controls, Layout Managers and Menus](Java/Chapter_24)
+24. [Images](Java/Chapter_25)
 
 ## Coming soon
 ### Java
-* Images
 * Concurrency Utilities
 * NIO, Regular Expressions and Other Packages
 * Java Beans
