@@ -1,0 +1,7 @@
+mkdir bin
+javac -d bin -sourcepath src src\com\rahulmadbhavi\training\AddServer.java
+javac -d bin -sourcepath src src\com\rahulmadbhavi\training\AddClient.java
+rmic -classpath bin -d bin com.rahulmadbhavi.training.AddServerImpl
+start rmiregistry -J-Djava.class.path=bin
+java -cp bin com.rahulmadbhavi.training.AddServer
+java -cp bin com.rahulmadbhavi.training.AddClient localhost 8 9
