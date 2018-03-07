@@ -1,5 +1,5 @@
 
-# Hello World Example
+# Java Example Code 2
 
 ## Commands
 1. Create folder for class files.
