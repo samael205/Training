@@ -29,10 +29,10 @@ Collection of code for learning Java.
 24. [Images](Java/Chapter_25)
 25. [Concurrency Utilities](Java/Chapter_26)
 26. [NIO, Regular Expressions and Other Packages](Java/Chapter_27)
+27. [Java Beans](Java/Chapter_28)
+28. [Basics of Swing](Java/Chapter_29)
+29. [Exploring Swing](Java/Chapter_30)
 
 ## Coming soon
 ### Java
-* Java Beans
-* Basics of Swing
-* Exploring Swing
 * Servlets
