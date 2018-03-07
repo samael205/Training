@@ -1,5 +1,5 @@
 
-# Hello World Example
+# If Statement Example
 
 ## Commands
 1. Create folder for class files.
