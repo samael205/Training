@@ -1,5 +1,5 @@
 
-# Java Example Code 2
+# For Loop Example
 
 ## Commands
 1. Create folder for class files.
