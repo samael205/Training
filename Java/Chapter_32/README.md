@@ -3,3 +3,4 @@
 ## Contents
 1. [Loan Installment Calculator](LoanCalculator)
 2. [Future Value Calculator](FutureValue)
+3. [Initial Investment Calculator](InitialInvestment)
