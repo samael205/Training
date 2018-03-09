@@ -32,7 +32,4 @@ Collection of code for learning Java.
 27. [Java Beans](Java/Chapter_28)
 28. [Basics of Swing](Java/Chapter_29)
 29. [Exploring Swing](Java/Chapter_30)
-
-## Coming soon
-### Java
-* Servlets
+30. [Financial Applets and Servlets](Java/Chapter_32)
