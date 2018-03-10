@@ -77,14 +77,14 @@ public class EMICalculator extends HttpServlet
 		
 		HttpSession session = request.getSession();
 		
+		session.setAttribute("principal", principalString);
+		session.setAttribute("years", yearsString);
+		session.setAttribute("roi", roiString);
+		
 		session.setAttribute("isValid", isValid);
 		if(isValid)
 		{
-			session.setAttribute("payment", payment);
-			session.setAttribute("principal", principalString);
-			session.setAttribute("years", yearsString);
-			session.setAttribute("roi", roiString);
-			
+			session.setAttribute("payment", payment);			
 		}
 		else
 		{

@@ -13,6 +13,7 @@
 	years = years == null ? "" : years;
 	roi = roi == null ? "" : roi;
 	error = error == null ? "" : error;
+	String paymentString = payment == null ? "" : Double.toString(payment);
 	
 	session.removeAttribute("isValid");
 	session.removeAttribute("error");
@@ -48,7 +49,7 @@
 		<br>
 
 		<%
-			if(isValid != null && (isValid))
+			if((isValid != null && (isValid))||(error.equals("")))
 			{
 		%>
 				<br>
@@ -69,11 +70,11 @@
 						</tr>
 						<tr>
 							<td>Interest Rate</td>
-							<td><input name="roi" value=<%= roi %> required></input></td>
+							<td><input name="roi" value="<%= roi %>" required></input></td>
 						</tr>
 						<tr>
 							<td>Monthly Payments</td>
-							<td><%= payment %></td>
+							<td><%= paymentString %></td>
 						</tr>
 						<tr>
 							<td colspan="2" align="center">
@@ -88,7 +89,9 @@
 			{
 		%>
 				<br>
-				<p align="center"><%= error %></p>				
+				<script>
+					alert('<%= error %>');
+				</script>				
 				<br>
 		
 				<form method="POST" action="<%= request.getContextPath() %>/EMICalculator">
@@ -98,15 +101,15 @@
 						</tr>
 						<tr>
 							<td>Principal</td>
-							<td><input name="principal" required></input></td>
+							<td><input name="principal" required value="<%= principal %>"></input></td>
 						</tr>
 						<tr>
 							<td>Number of Years</td>
-							<td><input name="years" required></input></td>
+							<td><input name="years" required value="<%= years %>"></input></td>
 						</tr>
 						<tr>
 							<td>Interest Rate</td>
-							<td><input name="roi" required></input></td>
+							<td><input name="roi" required value="<%= roi %>"></input></td>
 						</tr>
 						<tr>
 							<td>Monthly Payments</td>
