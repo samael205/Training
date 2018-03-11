@@ -33,3 +33,4 @@ Collection of code for learning Java.
 28. [Basics of Swing](Java/Chapter_29)
 29. [Exploring Swing](Java/Chapter_30)
 30. [Financial Applets and Servlets](Java/Chapter_32)
+31. [Download Manager Application](Java/Chapter_33)
