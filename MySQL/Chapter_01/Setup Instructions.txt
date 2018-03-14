@@ -1,0 +1,28 @@
+# Install MySQL Server
+sudo apt install mysql-server
+
+# Edit /etc/mysql/my.cnf
+[mysqld]
+bind-address = <Insert IP Address of Machine>
+port = 3306
+
+# Configure Security Settings
+sudo mysql_secure_installation
+
+# Login as root
+mysql -u root -p
+
+# Create Database
+create database <database-name>;
+
+# Create User
+create user '<username>'@'<ip>' identified by '<password>';
+
+# Grant Privileges
+grant all on <database-name>.* to '<username>' identified by '<password>';
+
+# Exit MySQL
+exit
+
+# Restart MySQL Service
+sudo service mysql restart
