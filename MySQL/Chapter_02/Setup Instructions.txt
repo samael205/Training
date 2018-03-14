@@ -1,0 +1,15 @@
+# Change directory to Downloads
+mkdir -p $HOME/Downloads
+cd $HOME/Downloads
+
+# Download Repository
+wget https://github.com/datacharmer/test_db/archive/master.zip
+
+# Unzip Zip File
+unzip master.zip
+
+# Change directory
+cd test_db-master
+
+# Create Database
+mysql -u rahul -p < employees.sql
