@@ -1,0 +1,186 @@
+<html>
+	
+	<head>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<style type="text/css">
+
+			*
+			{
+				box-sizing: border-box;
+				font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+			}
+
+			body
+			{
+				margin: 0;
+			}
+
+			div.header
+			{
+				background-color: #111;
+				color: white;
+				margin: 0;
+				font-size: 2em;
+				font-weight: bold;
+				padding: 1em;
+			}
+
+			div.menu
+			{
+				position: -webkit-sticky;
+			    position: sticky;
+			    top: 0;
+			}
+
+
+			div.menu ul
+			{
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				background-color: #333;
+				overflow: hidden;
+			}
+
+			div.menu ul li
+			{
+				float: left;
+			}
+
+			div.menu ul li a
+			{
+				display: block;
+				color: white;
+				font-weight: bold;
+				padding: 14px 16px;
+				text-decoration: none;
+				text-align: left;
+			}
+
+			div.menu ul li a.active
+			{
+				background-color: #0A0;
+			}
+
+			div.menu ul li a:hover:not(.active), .menuDropDown:hover
+			{
+				background-color: #111;
+			}
+
+			.menuDropDown
+			{
+				display: inline;
+			}
+
+			.menuDropDownContent
+			{
+				display: none;
+				position: absolute;
+				background-color: #555;
+				min-width: 160px;
+				z-index: 1;				
+			}
+
+			.menuDropDownContent a
+			{
+				color: white;
+				padding: 12px 16px;
+				text-decoration: none;
+				display: block;
+				text-align: left;
+			}
+
+			.menuDropDown:hover .menuDropDownContent
+			{
+				display: block;
+			}
+
+
+			@media screen and (max-width: 600px)
+			{
+				div.menu {position: static;}
+				div.menu ul li {float: none;}
+			}
+
+			div.content
+			{
+				padding: 40px;
+				margin-top: 30px;
+			}
+
+			p.columnContent
+			{
+				text-align: justify;
+				text-indent: 25px;
+				line-height: 1.6;
+				margin-bottom: 1.5em;
+			}
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="header">
+
+			Cascading Style Sheets
+
+		</div>
+		
+		<div class="menu">
+		
+			<ul>
+				
+				<li><a href="#home">Home</a></li>
+				<li><a href="#news">News</a></li>
+				<li class="menuDropDown">
+					<a href="#contact" class="menuDropButon">Contact</a>
+					<div class="menuDropDownContent">
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>		
+				</li>
+				<li><a class="active" href="#about">About</a></li>
+
+			</ul>		
+		
+		</div>
+
+		<div class="content">
+
+			<h2>About</h2>
+			<hr><br>
+
+			<p class="columnContent">
+				Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language. Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
+			</p>
+
+			<p class="columnContent">
+				CSS is designed primarily to enable the separation of presentation and content, including aspects such as the layout, colors, and fonts. This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple HTML pages to share formatting by specifying the relevant CSS in a separate .css file, and reduce complexity and repetition in the structural content.
+			</p>
+
+			<p class="columnContent">
+				Separation of formatting and content makes it possible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. It can also display the web page differently depending on the screen size or viewing device. Readers can also specify a different style sheet, such as a CSS file stored on their own computer, to override the one the author specified.
+			</p>
+
+			<p class="columnContent">
+				Changes to the graphic design of a document (or hundreds of documents) can be applied quickly and easily, by editing a few lines in the CSS file they use, rather than by changing markup in the documents.
+			</p>
+
+			<p class="columnContent">
+				The CSS specification describes a priority scheme to determine which style rules apply if more than one rule matches against a particular element. In this so-called cascade, priorities (or weights) are calculated and assigned to rules, so that the results are predictable.
+			</p>
+
+			<p class="columnContent">
+				The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.
+			</p>
+
+		</div>
+
+	</body>
+
+</html>
