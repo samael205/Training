@@ -1,0 +1,20 @@
+# Servlets
+
+## Contents
+1. [Simple Sevlet Example using Annotation](HelloWorld)
+2. [Simple Servlet Example using web.xml Servlet Mapping](HelloWorld2)
+3. [Reading Request Object Parameters](RequestObjectParameters)
+4. [Reading Request Object Info](RequestObjectInfo)
+5. [Reading Request Headers](RequestHeaders)
+6. [Reading Form Text Fields](FormString)
+7. [Reading Form Dropdown Seletion](FormSelect)
+8. [Reading Form Textarea](FormTextarea)
+9. [Reading Form Radio Options](FormRadioOptions)
+10. [Reading Checkbox Values](FormCheckboxes)
+11. [Accessing Database](JDBC)
+12. [Servlet Config Example](ServletConfig)
+13. [Servlet Config Database Example](ServletConfigDatabase)
+14. [Servlet Context](ServletContext)
+15. [Request Dispatcher Include Method](RequestDispatchInclude)
+16. [Request Dispatcher Forward Method](RequestDispatchForward)
+17. [Cookies](Cookies)
