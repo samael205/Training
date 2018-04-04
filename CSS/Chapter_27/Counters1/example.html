@@ -1,0 +1,32 @@
+
+<html>
+	
+	<head>
+	
+		<style>
+		
+			body
+			{
+				counter-reset: section;
+			}
+
+			h2::before
+			{
+				counter-increment: section;
+				content: "Section " counter(section) ": "
+			}
+
+		</style>
+
+	</head>
+	
+	<body>
+
+	<H1>Using CSS Counters</H1><br>
+	<H2>HTML</H2>
+	<H2>CSS</H2>
+	<H2>JavaScript</H2>
+
+	</body>
+
+</html>
