@@ -1,0 +1,50 @@
+
+<html>
+	
+	<head>
+	
+		<style>
+		
+			body
+			{
+				counter-reset: section;
+			}
+
+			h1
+			{
+				counter-reset: subsection;
+			}
+
+			h1::before
+			{
+				counter-increment: section;
+				content: "Section " counter(section) ": "
+			}
+
+			h2::before
+			{
+				counter-increment: subsection;
+				content: counter(section) "." counter(subsection) " ";
+			}
+
+		</style>
+
+	</head>
+	
+	<body>
+
+	<H1>HTML Tutorials</H1><br>
+	<H2>HTML</H2>
+	<H2>CSS</H2>
+
+	<H1>Scripting Tutorials</H1><br>
+	<H2>JavaScript</H2>
+	<H2>VBScript</H2>
+
+	<H1>XML Tutorials</H1><br>
+	<H2>XML</H2>
+	<H2>XSL</H2>
+
+	</body>
+
+</html>
