@@ -1,0 +1,54 @@
+<html>
+
+	<head>
+
+		<script type="text/javascript">
+
+			window.onload = function()
+			{
+
+				document.getElementById('and1').innerHTML = 'true && true : ' + (true && true);
+
+				document.getElementById('and2').innerHTML = 'true && false : ' + (true && false);
+
+				document.getElementById('and3').innerHTML = 'false && true : ' + (false && true);
+
+				document.getElementById('and4').innerHTML = 'false && false : ' + (false && false);
+
+				document.getElementById('or1').innerHTML = 'true || true : ' + (true || true);
+
+				document.getElementById('or2').innerHTML = 'true || false : ' + (true || false);
+
+				document.getElementById('or3').innerHTML = 'false || true : ' + (false || true);
+
+				document.getElementById('or4').innerHTML = 'false || false : ' + (false || false);
+
+				document.getElementById('not1').innerHTML = '!true : ' + (!true);
+
+				document.getElementById('not2').innerHTML = '!false : ' + (!false);
+
+			}
+
+		</script>		
+
+
+	</head>
+
+	<body>
+
+		<p id="and1"></p>
+		<p id="and2"></p>
+		<p id="and3"></p>
+		<p id="and4"></p>
+
+		<p id="or1"></p>
+		<p id="or2"></p>
+		<p id="or3"></p>
+		<p id="or4"></p>
+
+		<p id="not1"></p>
+		<p id="not2"></p>
+
+	</body>
+
+</html>
