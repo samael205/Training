@@ -1,0 +1,34 @@
+<html>
+
+	<head>
+
+		<script type="text/javascript">
+
+			showDate = function()
+			{
+				document.getElementById('date').value = Date();
+			}
+
+		</script>		
+
+		<style type="text/css">
+
+			input
+			{
+				width: 600px
+			}
+
+
+		</style>
+
+
+	</head>
+
+	<body>
+
+		<input id='date' type='text' disabled />
+		<button onclick="showDate();">Get Date</button>
+
+	</body>
+
+</html>
