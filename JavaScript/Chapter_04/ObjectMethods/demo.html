@@ -1,0 +1,35 @@
+<html>
+
+	<head>
+
+		<script type="text/javascript">
+
+			var sportsPerson = 
+			{
+				firstName : 'Roger',
+				lastName : 'Federer',
+
+				fullName : function()
+				{
+					return (this.firstName + " " + this.lastName);
+				}
+			};
+
+
+			window.onload = function()
+			{							
+				document.getElementById('fullname').innerHTML = sportsPerson.fullName();
+			}
+
+		</script>		
+
+
+	</head>
+
+	<body>
+
+		Full Name : <span id="fullname"></span>
+
+	</body>
+
+</html>
