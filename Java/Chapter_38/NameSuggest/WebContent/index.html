@@ -1,0 +1,31 @@
+
+<html>
+	
+	<head>
+		
+		<title>Name Suggest</title>
+		<script src="js/nameSuggest.js"></script>
+
+	</head>
+
+	<body>
+
+		<table border="1">
+			<tr>
+				<td>First Name</td>
+				<td><input type="text" id="firstname" onkeyup="update()" /></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td><input type="text" id="lastname" onkeyup="update()" /></td>
+			</tr>
+		</table>
+		<br>
+		
+		<H2>Names from Database</H2>
+		<H4>(Atleast 2 characters in either/both input fields is required.)</H4>
+		<div id="name_suggest"></div>
+	
+	</body>
+
+</html>
