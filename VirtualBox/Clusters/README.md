@@ -2,4 +2,4 @@
 Collection of code for creating clusters.
 
 ## Contents
-1. [Hadoop Cluster](Hadoop)
+1. [ZooKeeper Cluster](ZooKeeper)
