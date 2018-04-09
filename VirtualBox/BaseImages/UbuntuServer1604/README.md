@@ -107,6 +107,174 @@
 	</div>
 </div>
 
+### Start the Virtual Machine
+<div>
+	<div align="center">
+		<img src="images/Image_16.png" />
+	</div>
+</div>
+
+### Select Language
+<div>
+	<div align="center">
+		<img src="images/Image_17.png" />
+	</div>
+</div>
+
+### Select Install Ubuntu Server
+<div>
+	<div align="center">
+		<img src="images/Image_18.png" />
+	</div>
+</div>
+
+### Select Language
+<div>
+	<div align="center">
+		<img src="images/Image_19.png" />
+	</div>
+</div>
+
+### Select Location
+<div>
+	<div align="center">
+		<img src="images/Image_20.png" />
+	</div>
+</div>
+
+### Configure Keyboard
+<div>
+	<div align="center">
+		<img src="images/Image_21.png" />
+	</div>
+</div>
+
+### Enter a Hostname
+<div>
+	<div align="center">
+		<img src="images/Image_22.png" />
+	</div>
+</div>
+
+### Enter full name for user
+<div>
+	<div align="center">
+		<img src="images/Image_23.png" />
+	</div>
+</div>
+
+### Enter Username
+<div>
+	<div align="center">
+		<img src="images/Image_24.png" />
+	</div>
+</div>
+
+### Enter Password
+<div>
+	<div align="center">
+		<img src="images/Image_25.png" />
+	</div>
+</div>
+
+### Re-enter Password
+<div>
+	<div align="center">
+		<img src="images/Image_26.png" />
+	</div>
+</div>
+
+### If Password is weak, following prompt is displayed, you can choose to ignore this warning
+<div>
+	<div align="center">
+		<img src="images/Image_27.png" />
+	</div>
+</div>
+
+### Encrypt home directory if required
+<div>
+	<div align="center">
+		<img src="images/Image_28.png" />
+	</div>
+</div>
+
+### Configure clock
+<div>
+	<div align="center">
+		<img src="images/Image_29.png" />
+	</div>
+</div>
+
+### Partition Disks, Prompt 1
+<div>
+	<div align="center">
+		<img src="images/Image_30.png" />
+	</div>
+</div>
+
+### Partition Disks, Prompt 2
+<div>
+	<div align="center">
+		<img src="images/Image_31.png" />
+	</div>
+</div>
+
+### Partition Disks, Prompt 3
+<div>
+	<div align="center">
+		<img src="images/Image_32.png" />
+	</div>
+</div>
+
+### Enter HTTP Proxy Information
+<div>
+	<div align="center">
+		<img src="images/Image_33.png" />
+	</div>
+</div>
+
+### Configure Automatic Updates
+<div>
+	<div align="center">
+		<img src="images/Image_34.png" />
+	</div>
+</div>
+
+### Select Softwares
+<div>
+	<div align="center">
+		<img src="images/Image_35.png" />
+	</div>
+</div>
+
+### Install GRUB Loader
+<div>
+	<div align="center">
+		<img src="images/Image_36.png" />
+	</div>
+</div>
+
+### Finish Installation
+<div>
+	<div align="center">
+		<img src="images/Image_37.png" />
+	</div>
+</div>
+
+### Login to Machine
+<div>
+	<div align="center">
+		<img src="images/Image_38.png" />
+	</div>
+</div>
+
+### Machine Running
+<div>
+	<div align="center">
+		<img src="images/Image_39.png" />
+	</div>
+</div>
+
 ## Update Server
 ```
 sudo apt-get update
