@@ -71,7 +71,7 @@ echo 'server.4=192.168.1.214:2888:3888' >> $ZOOKEEPER_HOME/conf/zoo.cfg
 
 ## Create More Machines
 1. Shutdown the first virtual machine.
-2. Make three more copies of the first virtual machine.
+2. Make three clones of the first virtual machine.
 3. Modify the MAC address of the three newly created machines.
 4. Start all instances.
 
