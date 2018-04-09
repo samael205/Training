@@ -5,7 +5,7 @@
 ### Open Oracle VM VirtualBox
 <div>
 	<div align="center">
-		<img src="images/image_01.png" />
+		<img src="images/Image_01.png" />
 	</div>
 </div>
 
