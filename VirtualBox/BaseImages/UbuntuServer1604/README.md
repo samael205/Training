@@ -2,276 +2,297 @@
 
 ## Create Machine
 
-### Open Oracle VM VirtualBox
+### Download Ubuntu Server [Click here](https://www.ubuntu.com/download/alternative-downloads)
 <div>
 	<div align="center">
 		<img src="images/Image_01.png" />
 	</div>
 </div>
 
-### Click on New in menu bar
+### Use Transmission to Download File
 <div>
 	<div align="center">
 		<img src="images/Image_02.png" />
 	</div>
 </div>
 
-### Name the server
+### Click Open
 <div>
 	<div align="center">
 		<img src="images/Image_03.png" />
 	</div>
 </div>
 
-### Set the memory allocated to machine
+### Open Oracle VM VirtualBox
 <div>
 	<div align="center">
 		<img src="images/Image_04.png" />
 	</div>
 </div>
 
-### Create a virtual hard disk
+### Click on New in menu bar
 <div>
 	<div align="center">
 		<img src="images/Image_05.png" />
 	</div>
 </div>
 
-### Select virtual hard disk type
+### Name the server
 <div>
 	<div align="center">
 		<img src="images/Image_06.png" />
 	</div>
 </div>
 
-### Set fixed size for virtual hard disk
+### Set the memory allocated to machine
 <div>
 	<div align="center">
 		<img src="images/Image_07.png" />
 	</div>
 </div>
 
-### Set size for virtual hard disk
+### Create a virtual hard disk
 <div>
 	<div align="center">
 		<img src="images/Image_08.png" />
 	</div>
 </div>
 
-### Machine created
+### Select virtual hard disk type
 <div>
 	<div align="center">
 		<img src="images/Image_09.png" />
 	</div>
 </div>
 
-### Click on machine settings
+### Set fixed size for virtual hard disk
 <div>
 	<div align="center">
 		<img src="images/Image_10.png" />
 	</div>
 </div>
 
-### Settings dialog box
+### Set size for virtual hard disk
 <div>
 	<div align="center">
 		<img src="images/Image_11.png" />
 	</div>
 </div>
 
-### Modify network settings, select bridged adapter, set mac address
+### Machine created
 <div>
 	<div align="center">
 		<img src="images/Image_12.png" />
 	</div>
 </div>
 
-### Modify storage settings, select optical drive
+### Click on machine settings
 <div>
 	<div align="center">
 		<img src="images/Image_13.png" />
 	</div>
 </div>
 
-### Select OS image
+### Settings dialog box
 <div>
 	<div align="center">
 		<img src="images/Image_14.png" />
 	</div>
 </div>
 
-### Click on OK
+### Modify network settings, select bridged adapter, set mac address
 <div>
 	<div align="center">
 		<img src="images/Image_15.png" />
 	</div>
 </div>
 
-### Start the Virtual Machine
+### Modify storage settings, select optical drive
 <div>
 	<div align="center">
 		<img src="images/Image_16.png" />
 	</div>
 </div>
 
-### Select Language
+### Select OS image
 <div>
 	<div align="center">
 		<img src="images/Image_17.png" />
 	</div>
 </div>
 
-### Select Install Ubuntu Server
+### Click on OK
 <div>
 	<div align="center">
 		<img src="images/Image_18.png" />
 	</div>
 </div>
 
-### Select Language
+### Start the Virtual Machine
 <div>
 	<div align="center">
 		<img src="images/Image_19.png" />
 	</div>
 </div>
 
-### Select Location
+### Select Language
 <div>
 	<div align="center">
 		<img src="images/Image_20.png" />
 	</div>
 </div>
 
-### Configure Keyboard
+### Select Install Ubuntu Server
 <div>
 	<div align="center">
 		<img src="images/Image_21.png" />
 	</div>
 </div>
 
-### Enter a Hostname
+### Select Language
 <div>
 	<div align="center">
 		<img src="images/Image_22.png" />
 	</div>
 </div>
 
-### Enter full name for user
+### Select Location
 <div>
 	<div align="center">
 		<img src="images/Image_23.png" />
 	</div>
 </div>
 
-### Enter Username
+### Configure Keyboard
 <div>
 	<div align="center">
 		<img src="images/Image_24.png" />
 	</div>
 </div>
 
-### Enter Password
+### Enter a Hostname
 <div>
 	<div align="center">
 		<img src="images/Image_25.png" />
 	</div>
 </div>
 
-### Re-enter Password
+### Enter full name for user
 <div>
 	<div align="center">
 		<img src="images/Image_26.png" />
 	</div>
 </div>
 
-### If Password is weak, following prompt is displayed, you can choose to ignore this warning
+### Enter Username
 <div>
 	<div align="center">
 		<img src="images/Image_27.png" />
 	</div>
 </div>
 
-### Encrypt home directory if required
+### Enter Password
 <div>
 	<div align="center">
 		<img src="images/Image_28.png" />
 	</div>
 </div>
 
-### Configure clock
+### Re-enter Password
 <div>
 	<div align="center">
 		<img src="images/Image_29.png" />
 	</div>
 </div>
 
-### Partition Disks, Prompt 1
+### If Password is weak, following prompt is displayed, you can choose to ignore this warning
 <div>
 	<div align="center">
 		<img src="images/Image_30.png" />
 	</div>
 </div>
 
-### Partition Disks, Prompt 2
+### Encrypt home directory if required
 <div>
 	<div align="center">
 		<img src="images/Image_31.png" />
 	</div>
 </div>
 
-### Partition Disks, Prompt 3
+### Configure clock
 <div>
 	<div align="center">
 		<img src="images/Image_32.png" />
 	</div>
 </div>
 
-### Enter HTTP Proxy Information
+### Partition Disks, Prompt 1
 <div>
 	<div align="center">
 		<img src="images/Image_33.png" />
 	</div>
 </div>
 
-### Configure Automatic Updates
+### Partition Disks, Prompt 2
 <div>
 	<div align="center">
 		<img src="images/Image_34.png" />
 	</div>
 </div>
 
-### Select Softwares
+### Partition Disks, Prompt 3
 <div>
 	<div align="center">
 		<img src="images/Image_35.png" />
 	</div>
 </div>
 
-### Install GRUB Loader
+### Enter HTTP Proxy Information
 <div>
 	<div align="center">
 		<img src="images/Image_36.png" />
 	</div>
 </div>
 
-### Finish Installation
+### Configure Automatic Updates
 <div>
 	<div align="center">
 		<img src="images/Image_37.png" />
 	</div>
 </div>
 
-### Login to Machine
+### Select Softwares
 <div>
 	<div align="center">
 		<img src="images/Image_38.png" />
 	</div>
 </div>
 
-### Machine Running
+### Install GRUB Loader
 <div>
 	<div align="center">
 		<img src="images/Image_39.png" />
+	</div>
+</div>
+
+### Finish Installation
+<div>
+	<div align="center">
+		<img src="images/Image_40.png" />
+	</div>
+</div>
+
+### Login to Machine
+<div>
+	<div align="center">
+		<img src="images/Image_41.png" />
+	</div>
+</div>
+
+### Machine Running
+<div>
+	<div align="center">
+		<img src="images/Image_42.png" />
 	</div>
 </div>
 
