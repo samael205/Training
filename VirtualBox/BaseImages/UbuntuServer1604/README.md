@@ -1,5 +1,14 @@
 # Ubuntu Server 16.04 Setup
 
+## Create Machine
+
+### Open Oracle VM VirtualBox
+<div>
+	<div align="center">
+		<img src="images/image_01.png" />
+	</div>
+</div>
+
 ## Update Server
 ```
 sudo apt-get update
