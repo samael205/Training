@@ -1,8 +1,7 @@
 
-# Hadoop Cluster
+# ZooKeeper Cluster
 
 ## Clone Ubuntu Server 16.04 Base with Java, NodeJS
-### Create Clone
 1. Right click on machine and select clone.
 2. Name the node as ```UbuntuServer1604 Cluster Node 1```.
 3. Click on next.
@@ -69,6 +68,12 @@ echo 'server.2=192.168.1.212:2888:3888' >> $ZOOKEEPER_HOME/conf/zoo.cfg
 echo 'server.3=192.168.1.213:2888:3888' >> $ZOOKEEPER_HOME/conf/zoo.cfg
 echo 'server.4=192.168.1.214:2888:3888' >> $ZOOKEEPER_HOME/conf/zoo.cfg
 ```
+
+## Create More Machines
+1. Shutdown the first virtual machine.
+2. Make three more copies of the first virtual machine.
+3. Modify the MAC address of the three newly created machines.
+4. Start all instances.
 
 ## Create myid File
 ### Create File
