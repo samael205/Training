@@ -9,6 +9,104 @@
 	</div>
 </div>
 
+### Click on New in menu bar
+<div>
+	<div align="center">
+		<img src="images/Image_02.png" />
+	</div>
+</div>
+
+### Name the server
+<div>
+	<div align="center">
+		<img src="images/Image_03.png" />
+	</div>
+</div>
+
+### Set the memory allocated to machine
+<div>
+	<div align="center">
+		<img src="images/Image_04.png" />
+	</div>
+</div>
+
+### Create a virtual hard disk
+<div>
+	<div align="center">
+		<img src="images/Image_05.png" />
+	</div>
+</div>
+
+### Select virtual hard disk type
+<div>
+	<div align="center">
+		<img src="images/Image_06.png" />
+	</div>
+</div>
+
+### Set fixed size for virtual hard disk
+<div>
+	<div align="center">
+		<img src="images/Image_07.png" />
+	</div>
+</div>
+
+### Set size for virtual hard disk
+<div>
+	<div align="center">
+		<img src="images/Image_08.png" />
+	</div>
+</div>
+
+### Machine created
+<div>
+	<div align="center">
+		<img src="images/Image_09.png" />
+	</div>
+</div>
+
+### Click on machine settings
+<div>
+	<div align="center">
+		<img src="images/Image_10.png" />
+	</div>
+</div>
+
+### Settings dialog box
+<div>
+	<div align="center">
+		<img src="images/Image_11.png" />
+	</div>
+</div>
+
+### Modify network settings, select bridged adapter, set mac address
+<div>
+	<div align="center">
+		<img src="images/Image_12.png" />
+	</div>
+</div>
+
+### Modify storage settings, select optical drive
+<div>
+	<div align="center">
+		<img src="images/Image_13.png" />
+	</div>
+</div>
+
+### Select OS image
+<div>
+	<div align="center">
+		<img src="images/Image_14.png" />
+	</div>
+</div>
+
+### Click on OK
+<div>
+	<div align="center">
+		<img src="images/Image_15.png" />
+	</div>
+</div>
+
 ## Update Server
 ```
 sudo apt-get update
