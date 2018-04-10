@@ -1,7 +1,7 @@
 
 # ZooKeeper Cluster
 
-## Create Ubuntu Server 16.04 Base with Java, NodeJS 
+## A. Create Ubuntu Server 16.04 Base with Java, NodeJS 
 ### Create new Machine
 For information on creating the image [Click Here](../../BaseImages/UbuntuServer1604).
 
@@ -14,7 +14,7 @@ For information on creating the image [Click Here](../../BaseImages/UbuntuServer
 4. Select full clone and click Clone button.
 5. Update MAC Address if required.
 
-## Update Hosts File
+## B. Update Hosts File
 1. Open hosts file.
 	```
 	sudo nano /etc/hosts
@@ -27,7 +27,7 @@ For information on creating the image [Click Here](../../BaseImages/UbuntuServer
 	192.168.1.214	node04
 	```
 
-## Download ZooKeeper
+## C. Download ZooKeeper
 ```
 # Create Folders
 mkdir -p $HOME/softwares/download/apache/zookeeper
@@ -43,7 +43,7 @@ mv zookeeper-3.4.11 zookeeper
 mv zookeeper $HOME/softwares/installation/apache
 ```
 
-## Add ZOOKEEPER_HOME to .bashrc
+## D. Add ZOOKEEPER_HOME to .bashrc
 ```
 cd
 echo '' >> .bashrc
@@ -51,13 +51,13 @@ echo 'export ZOOKEEPER_HOME='"$HOME"'/softwares/installation/apache/zookeeper' >
 source .bashrc
 ```
 
-## Create Folders required for ZooKeeper
+## E. Create Folders required for ZooKeeper
 ```
 mkdir -p $HOME/softwares/installation/apache/zookeeper/data
 mkdir -p $HOME/softwares/installation/apache/zookeeper/logs
 ```
 
-## Create Configuration File
+## F. Create Configuration File
 ```
 # Create File
 touch $ZOOKEEPER_HOME/conf/zoo.cfg
@@ -75,13 +75,13 @@ echo 'server.3=192.168.1.213:2888:3888' >> $ZOOKEEPER_HOME/conf/zoo.cfg
 echo 'server.4=192.168.1.214:2888:3888' >> $ZOOKEEPER_HOME/conf/zoo.cfg
 ```
 
-## Create More Machines
+## G. Create More Machines
 1. Shutdown the first virtual machine.
 2. Make three clones of the first virtual machine.
 3. Modify the MAC address of the three newly created machines.
 4. Start all instances.
 
-## Create myid File
+## H. Create myid File
 ### Create File
 ```
 touch $HOME/softwares/installation/apache/zookeeper/data/myid
@@ -104,7 +104,7 @@ touch $HOME/softwares/installation/apache/zookeeper/data/myid
 	sh  -c  "echo '4' > $HOME/softwares/installation/apache/zookeeper/data/myid"
 	```
 
-## ZooKeeper Commands
+## I. ZooKeeper Commands
 1. ZooKeeper Start
 	```
 	$ZOOKEEPER_HOME/bin/zkServer.sh start
