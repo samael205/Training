@@ -1,6 +1,9 @@
 
 # ZooKeeper Cluster
 
+## Create Ubuntu Server 16.04 Base with Java, NodeJS
+For information on creating the image [Click Here](../../BaseImages/UbuntuServer1604).
+
 ## Clone Ubuntu Server 16.04 Base with Java, NodeJS
 1. Right click on machine and select clone.
 2. Name the node as ```UbuntuServer1604 Cluster Node 1```.
