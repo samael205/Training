@@ -14,7 +14,7 @@ Collection of code for learning Java.
 10. [Multithreaded Programming](Chapter_11)
 11. [Enumerations, Autoboxing and Annotations](Chapter_12)
 12. [I/O, Applets and Other Topics](Chapter_13)
-13. [Generics](Chapter_14)do 
+13. [Generics](Chapter_14) 
 14. [String Handling](Chapter_15)
 15. [Exploring java.lang](Chapter_16)
 16. [Collections Framework](Chapter_17)
@@ -35,3 +35,9 @@ Collection of code for learning Java.
 31. [Download Manager Application](Chapter_33)
 32. [JUnit](Chapter_34)
 33. [JDBC](Chapter_35)
+34. [Servlets](Chapter_36)
+35. [JSP](Chapter_37)
+36. [AJAX](Chapter_38)
+37. [Hibernate](Chapter_39)
+38. [Lambda Expressions](Chapter_40)
+39. [Stream API](Chapter_41)
