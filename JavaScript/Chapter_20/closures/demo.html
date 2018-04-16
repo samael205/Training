@@ -1,0 +1,43 @@
+<html>
+
+	<head>
+
+	</head>
+
+	<body>
+
+		<div>
+			<table align="center">
+				<tr>
+					<td>Number</td>
+					<td><input id='numberOutput' value='0' disabled /></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center"><button onclick="update()">Increment</button></td>
+				</tr>
+			</table>
+		</div>
+
+		<script type="text/javascript">
+
+			var increment = (function()
+			{
+				var counter = 0;
+
+				return function()
+				{
+					return counter+=1;
+				};
+			
+			})();
+
+			function update()
+			{
+				document.getElementById('numberOutput').value = increment();
+			}
+
+		</script>		
+
+	</body>
+
+</html>
