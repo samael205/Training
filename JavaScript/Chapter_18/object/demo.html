@@ -1,0 +1,41 @@
+<html>
+
+	<head>
+
+	</head>
+
+	<body>
+
+		<table border="1">
+			<tr>
+				<td>First Name</td>
+				<td id="firstName"></td>
+			</tr>
+			<tr>
+				<td>Last Name</td>
+				<td id="lastName"></td>
+			</tr>
+			<tr>
+				<td>Country</td>
+				<td id="country"></td>
+			</tr>
+			<tr>
+				<td>Sport</td>
+				<td id="sport"></td>
+			</tr>
+		</table>
+
+		<script type="text/javascript">
+
+			var sportsPerson = {firstName: "Roger", lastName: "Federer", country: "Switzerland", sport: "Tennis"};
+
+			document.getElementById('firstName').innerHTML = sportsPerson.firstName;
+			document.getElementById('lastName').innerHTML = sportsPerson.lastName;
+			document.getElementById('country').innerHTML = sportsPerson.country;
+			document.getElementById('sport').innerHTML = sportsPerson.sport;
+
+		</script>		
+
+	</body>
+
+</html>
