@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+
+		<script type="text/javascript">
+
+			validate = function()
+			{
+				var number = document.getElementById('number').value;
+
+				if(isNaN(number) || number < 1 || number > 10)
+				{
+					alert("Number in the range 1-10 is required.");
+					return false;
+				}
+
+				return true;
+			}
+
+		</script>		
+
+	</head>
+
+	<body>
+
+		<div>
+			<form name="numberForm" onsubmit="return validate();">
+				<table align="center">
+					<tr>
+						<td>Enter a number (1-10) : </td>
+						<td><input type="text" id="number" name="number" width="200px"/></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center"><input type="submit"/></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+
+	</body>
+
+</html>
