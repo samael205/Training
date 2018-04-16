@@ -1,0 +1,38 @@
+<html>
+
+	<head>
+
+		<script type="text/javascript">
+
+			var content;
+
+			window.onload = function()
+			{
+				content = document.getElementById('Contents');
+			}
+
+			function mouseDown()
+			{
+				content.innerHTML = 'Release mouse.';
+			}
+
+			function mouseUp()
+			{
+				content.innerHTML = 'Click here.';
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<div id='Contents' style="padding: 100px; width: 100%; background-color: red; color: white; font-weight: bold;" onMouseDown='mouseDown()' onMouseUp='mouseUp()'>
+
+			Click this area.
+
+		</div>
+
+	</body>
+
+</html>
