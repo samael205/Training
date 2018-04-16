@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+
+	</head>
+
+	<body>
+
+		<div>
+			<form name="namform" onsubmit="return validate();">
+				<table align="center">
+					<tr>
+						<td>Enter Name</td>
+						<td><input type="text" id="name" name="name" width="200px"/></td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center"><input type="submit"/></td>
+					</tr>
+				</table>
+			</form>
+		</div>
+
+		<script type="text/javascript">
+
+			validate = function()
+			{
+				var name = document.getElementById('name').value;
+
+				if(name == "")
+				{
+					alert("Name must be filled.");
+					return false;
+				}
+
+				return true;
+			}
+
+		</script>		
+
+	</body>
+
+</html>
