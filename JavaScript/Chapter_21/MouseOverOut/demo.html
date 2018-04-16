@@ -1,0 +1,38 @@
+<html>
+
+	<head>
+
+		<script type="text/javascript">
+
+			var content;
+
+			window.onload = function()
+			{
+				content = document.getElementById('Contents');
+			}
+
+			function mouseOver()
+			{
+				content.innerHTML = 'Move mouse pointer out of this area.';
+			}
+
+			function mouseOut()
+			{
+				content.innerHTML = 'Mouse pointer was in this area.';
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<div id='Contents' style="padding: 100px; width: 100%; background-color: red; color: white; font-weight: bold;" onMouseOver='mouseOver()' onMouseOut='mouseOut()'>
+
+			Move mouse pointer to this area.
+
+		</div>
+
+	</body>
+
+</html>
