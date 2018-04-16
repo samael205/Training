@@ -1,0 +1,33 @@
+<html>
+
+	<head>
+
+		<script type="text/javascript">
+
+			var myButtonElement;
+
+			window.onload = function()
+			{
+				myButtonElement = document.getElementById('myButton');
+
+				myButtonElement.addEventListener('click', myFunction);
+			}
+
+			function myFunction()			
+			{
+				document.write('Mouse button was clicked.');
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<button id='myButton'>Click Here</button>
+
+		<p id='content'></p>
+
+	</body>
+
+</html>
