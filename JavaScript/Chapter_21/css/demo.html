@@ -1,0 +1,28 @@
+<html>
+
+	<head>
+
+	</head>
+
+	<body>
+
+		<button onclick="changeBackgroundColor()">Change Background</button>
+
+		<script type="text/javascript">
+
+			function changeBackgroundColor()
+			{
+				var bodyElement = document.getElementsByTagName('body')[0];
+
+				var red = Math.round(256 * Math.random());
+				var green = Math.round(256 * Math.random());
+				var blue = Math.round(256 * Math.random());
+
+				bodyElement.setAttribute('style', 'background-color: rgb(' + red + ', ' + green + ', ' + blue + ');');
+			}
+
+		</script>
+
+	</body>
+
+</html>
