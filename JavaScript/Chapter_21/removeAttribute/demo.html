@@ -1,0 +1,42 @@
+<html>
+
+	<head>
+
+	</head>
+
+	<body>
+
+		<input type="text" id="name" value="Test" />
+		<button onclick='toggleDisable()'>Disable</button>
+
+		<script type="text/javascript">
+
+			var toggleStatus = (function(){
+
+				var isDisabled = false;
+
+				return function(){return isDisabled = (!isDisabled);}
+
+			})();
+
+			function toggleDisable()
+			{
+				var isDisabled = toggleStatus();
+
+				var inputField = document.getElementById('name');
+
+				if(isDisabled)
+				{
+					inputField.setAttribute('disabled', 'disabled');
+				}
+				else
+				{
+					inputField.removeAttribute('disabled');
+				}
+			}
+
+		</script>		
+
+	</body>
+
+</html>
