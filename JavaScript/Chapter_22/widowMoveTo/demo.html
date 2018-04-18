@@ -1,0 +1,38 @@
+<html>
+
+	<head>
+
+		<script type="text/javascript">
+		
+			var win;
+
+			function openTab()
+			{
+				win = window.open('', 'newWindow', "width=400, height=200");
+				win.document.write("<p>This is 'myWindow'</p>");
+			}
+
+			function moveTab()
+			{
+				win.moveTo(500, 200);
+				win.focus();
+			}
+
+			function closeTab()
+			{
+				win.close();
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<button onclick="openTab()">Open New Window</button><br><br>
+		<button onclick="moveTab()">Move Opened Window</button><br><br>
+		<button onclick="closeTab()">Close Opened Window</button><br><br>
+
+	</body>
+
+</html>
