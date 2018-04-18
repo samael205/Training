@@ -1,0 +1,56 @@
+<html>
+
+	<head>
+
+		<script type="text/javascript">
+		
+			window.onload = function()
+			{
+				document.getElementById('screenWidth').innerHTML = screen.width;
+				document.getElementById('screenHeight').innerHTML = screen.height;
+				document.getElementById('screenAvailWidth').innerHTML = screen.availWidth;
+				document.getElementById('screenAvailHeight').innerHTML = screen.availHeight;
+				document.getElementById('screenColorDepth').innerHTML = screen.colorDepth;
+				document.getElementById('screenPixelDepth').innerHTML = screen.pixelDepth;
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<table border="1">
+			<tr>
+				<td>Property</td>
+				<td>Value</td>
+			</tr>
+			<tr>
+				<td>width</td>
+				<td id='screenWidth'></td>
+			</tr>
+			<tr>
+				<td>height</td>
+				<td id='screenHeight'></td>
+			</tr>
+			<tr>
+				<td>availWidth</td>
+				<td id='screenAvailWidth'></td>
+			</tr>
+			<tr>
+				<td>availHeight</td>
+				<td id='screenAvailHeight'></td>
+			</tr>
+			<tr>
+				<td>colorDepth</td>
+				<td id='screenColorDepth'></td>
+			</tr>
+			<tr>
+				<td>pixelDepth</td>
+				<td id='screenPixelDepth'></td>
+			</tr>
+		</table>
+
+	</body>
+
+</html>
