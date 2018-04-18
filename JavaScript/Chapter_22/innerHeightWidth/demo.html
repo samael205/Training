@@ -1,0 +1,29 @@
+<html>
+
+	<head>
+
+		<script type="text/javascript">
+
+			var content;
+
+			window.onload = function()
+			{
+				content = document.getElementById('content');
+			}
+
+			function modify()
+			{
+				content.innerHTML = window.innerWidth + ' X ' + window.innerHeight;
+			}
+
+		</script>		
+
+	</head>
+
+	<body onresize="modify()">
+
+		<div id="content">Resize</div> 
+
+	</body>
+
+</html>
