@@ -3,7 +3,7 @@ Collection of code for learning MySQL.
 
 ## Contents
 1. [Setup MySQL](Chapter_01)
-2. [Download an Setup Sample Database](Chapter_02)
+2. [Download and Setup Sample Database](Chapter_02)
 3. [SELECT Statement](Chapter_03)
 4. [Restricting and Sorting Data](Chapter_04)
 5. [Single Row Functions](Chapter_05)
