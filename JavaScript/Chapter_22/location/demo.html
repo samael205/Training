@@ -1,0 +1,51 @@
+<html>
+
+	<head>
+
+		<script type="text/javascript">
+		
+			window.onload = function()
+			{
+				document.getElementById('href').innerHTML = window.location.href;
+				document.getElementById('hostname').innerHTML = window.location.hostname;
+				document.getElementById('pathname').innerHTML = window.location.pathname;
+				document.getElementById('protocol').innerHTML = window.location.protocol;
+				document.getElementById('assign').innerHTML = window.location.assign;
+			}
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<table border="1">
+			<tr>
+				<td>Property</td>
+				<td>Value</td>
+			</tr>
+			<tr>
+				<td>window.location.href</td>
+				<td id='href'></td>
+			</tr>
+			<tr>
+				<td>window.location.hostname</td>
+				<td id='hostname'></td>
+			</tr>
+			<tr>
+				<td>window.location.pathname</td>
+				<td id='pathname'></td>
+			</tr>
+			<tr>
+				<td>window.location.protocol</td>
+				<td id='protocol'></td>
+			</tr>
+			<tr>
+				<td>window.location.assign</td>
+				<td id='assign'></td>
+			</tr>
+		</table>
+
+	</body>
+
+</html>
