@@ -1,0 +1,45 @@
+
+<html>
+
+	<head>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+
+				var isHidden = false;
+
+				$('#myButton').click(function(){
+
+					if(isHidden)
+					{
+						$('#content').show();
+						$('#myButton').html('Hide');
+					}
+					else
+					{
+						$('#content').hide();
+						$('#myButton').html('Show');
+					}
+
+					isHidden = !isHidden;
+
+				});
+
+			});
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<button id='myButton'>Hide</button>
+
+		<p id='content'>Click the button to show or hide this paragraph.</p>	
+
+	</body>
+
+</html>
