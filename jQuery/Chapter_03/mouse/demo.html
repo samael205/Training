@@ -1,0 +1,134 @@
+
+<html>
+
+	<head>
+
+		<style type="text/css">
+
+			*
+			{
+				margin: 0;
+			}
+
+			p[id^='para']
+			{
+				background-color: tomato;
+				padding: 20px;
+			}
+
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+
+				$('#para1').click(function(){
+
+					alert('Box 1 was clicked.');
+
+				});
+
+				$('#para2').dblclick(function(){
+
+					alert('Box 2 was double clicked.');
+
+				});
+
+				$('#para3').mouseenter(function(){
+
+					$('#para3').html('Move Mouse Pointer Out Of This Box.');
+
+				});
+
+				$('#para3').mouseleave(function(){
+
+					$('#para3').html('Move Mouse Pointer Into This Box.');
+
+				});
+
+				$('#para4').mousedown(function(){
+
+					$('#para4').html('Mouse button was pressed in this area.');
+
+				});
+
+				$('#para4').mouseup(function(){
+
+					$('#para4').html('Mouse button was released in this area.');
+
+				});
+
+				$('#para5').hover(
+
+					function()
+					{
+						$('#para5').html('Mouse pointer is in this area.');
+					},
+					function()
+					{
+						$('#para5').html('Mouse pointer is not in this area.');
+					}
+
+				);
+
+				$('#field').focus(function(){
+
+					$(this).css("background-color", "teal");
+
+				});
+
+				$('#field').blur(function(){
+
+					$(this).css("background-color", "white");
+
+				});
+
+				$('#para6').on({
+
+					mouseenter : function()
+					{
+						$('#para6').html('Mouse pointer is in this area.');
+					},
+
+					mouseleave : function()
+					{
+						$('#para6').html('Mouse pointer is not in this area.');
+					}
+
+				});
+
+			});
+
+
+		</script>
+
+	</head>
+
+	<body>
+	
+		<p>click Event</p>
+		<p id='para1'>Click Here</p><br><br>
+
+		<p>doubleclick Event</p>
+		<p id='para2'>Double Click Here</p><br><br>
+
+		<p>mouseenter, mouseleave Events</p>
+		<p id='para3'>Move Mouse Pointer Into This Box.</p><br><br>
+
+		<p>mousedown, mouseup Events</p>
+		<p id='para4'></p><br><br>
+
+		<p>hover Event</p>
+		<p id='para5'>Mouse pointer is not in this area.</p><br><br>
+
+		<p>focus, blur</p>
+		<input type="text" id="field" /><br><br>
+
+		<p>on</p>
+		<p id='para6'>Move Mouse Pointer Into This Box.</p><br><br>		
+
+	</body>
+
+</html>
