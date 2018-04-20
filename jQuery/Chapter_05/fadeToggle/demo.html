@@ -1,0 +1,81 @@
+
+<html>
+
+	<head>
+
+		<style type="text/css">
+
+			div[id^='content']
+			{
+				padding: 40px;
+				background-color: #333;
+				font-weight: bold;
+				color: white;
+			}
+
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+
+				var isDiv1Hidden = false;
+				var isDiv2Hidden = false;
+				var isDiv3Hidden = false;
+
+				$('#fadeButton1').click(function(){
+
+					$('#content1').fadeToggle();
+					isDiv1Hidden = !isDiv1Hidden;
+
+				});
+
+				$('#fadeButton2').click(function(){
+
+					$('#content2').fadeToggle('slow');
+					isDiv2Hidden = !isDiv2Hidden;
+
+				});
+
+				$('#fadeButton3').click(function(){
+
+					$('#content3').fadeToggle(3000);
+					isDiv3Hidden = !isDiv3Hidden;
+
+				});
+
+			});
+
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<div>
+			
+			<button id='fadeButton1'>Regular Fade</button>
+			<div id='content1'>This is div 1.</div>
+
+		</div>
+	
+		<div>
+			
+			<button id='fadeButton2'>Slow Fade</button>
+			<div id='content2'>This is div 2.</div>
+
+		</div>
+	
+		<div>
+			
+			<button id='fadeButton3'>Custom Fade</button>
+			<div id='content3'>This is div 3.</div>
+
+		</div>
+	
+	</body>
+
+</html>
