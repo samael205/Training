@@ -1,0 +1,39 @@
+
+<html>
+
+	<head>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+
+				$('#text').click(function(){
+
+					alert($('#content').text());
+
+				});
+
+				$('#html').click(function(){
+
+					alert($('#content').html());
+
+				});
+
+			});
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<p id='content'>This is <b>sentence 1</b> of <i>paragraph 1</i>.</p>	
+
+		<button id='text'>Show Text</button>
+		<button id='html'>Show HTML</button>
+
+	</body>
+
+</html>
