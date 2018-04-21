@@ -1,0 +1,42 @@
+
+<html>
+
+	<head>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+
+			var isInverted = false;
+
+			$(document).ready(function(){
+
+				$('#invert').click(function(){
+
+					if(isInverted)
+					{
+						$('#name').attr('style', 'background-color: white; color: black;');	
+					}
+					else
+					{
+						$('#name').attr('style', 'background-color: black; color: white;');	
+					}
+					
+					isInverted = !isInverted;
+
+				});
+
+			});
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<input id='name' type='text' placeholder='Enter some text' /><br>
+		<button id='invert'>Invert Colors</button>
+
+	</body>
+
+</html>
