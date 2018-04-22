@@ -1,0 +1,52 @@
+
+<html>
+
+	<head>
+
+		<style>
+
+			.background
+			{
+				background-color: red;
+			}
+
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		
+		<script type="text/javascript">
+
+			$(document).ready(function(){
+
+				var isAdded = false;
+
+				$('#myButton').click(function(){
+
+					if(isAdded)
+					{
+						$('#myButton').html('Add CSS Class');
+					}
+					else
+					{
+						$('#myButton').html('Remove CSS Class');
+					}
+
+					$('body').toggleClass('background');
+					isAdded = !isAdded;
+
+				});
+
+			});
+
+
+		</script>
+
+	</head>
+
+	<body>
+
+		<button id='myButton'>Add CSS Class</button>
+
+	</body>
+
+</html>
