@@ -1,0 +1,25 @@
+
+body
+{
+	background: url('../images/Charmadi_ghat.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+div.mainContainer
+{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+div.internalContainer
+{
+	width: 80%;
+	margin:auto;
+}
+
+div.content
+{
+	background-color: rgba(255, 255, 255, 0.75);
+	padding: 20px;
+}
