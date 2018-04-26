@@ -1,0 +1,25 @@
+
+div.contentBoxStyle1
+{
+	border: 1px solid black;
+	width: 300px;
+	background-color: yellow;
+}
+
+div.contentBoxStyle2
+{
+	border: 1px solid black;
+	width: 300px;
+	background-color: yellow;
+	padding: 70px;
+}
+
+div.contentBoxStyle3
+{
+	border: 1px solid black;
+	width: 300px;
+	background-color: yellow;
+	padding: 70px;
+	box-sizing: border-box;
+}
+
