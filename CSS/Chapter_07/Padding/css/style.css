@@ -1,0 +1,37 @@
+
+div.container
+{
+	border: 1px solid black;
+	width: 80%;
+	margin: auto;
+}
+
+div.allMargins
+{
+	background-color: silver;
+	padding: 70px;
+}
+
+div.topMargin
+{
+	background-color: silver;
+	padding-top: 70px;
+}
+
+div.rightMargin
+{
+	background-color: silver;
+	padding-right: 70px;
+}
+
+div.bottomMargin
+{
+	background-color: silver;
+	padding-bottom: 70px;
+}
+
+div.leftMargin
+{
+	background-color: silver;
+	padding-left: 70px;
+}
