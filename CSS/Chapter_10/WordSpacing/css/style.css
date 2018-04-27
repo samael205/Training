@@ -1,0 +1,15 @@
+
+p.justify
+{
+	text-align: justify;
+}
+
+p.indentFirstLine
+{
+	text-indent: 25px;	
+}
+
+p.wordSpacing
+{
+	word-spacing: 8px;
+}
