@@ -1,0 +1,20 @@
+
+p.leftAlign
+{
+	text-align: left;
+}
+
+p.justify
+{
+	text-align: justify;
+}
+
+p.rightAlign
+{
+	text-align: right;
+}
+
+p.centerAlign
+{
+	text-align: center;
+}
