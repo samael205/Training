@@ -1,0 +1,15 @@
+
+p.overline
+{
+	text-decoration: overline;
+}
+
+p.strikeThrough
+{
+	text-decoration: line-through;
+}
+
+p.underline
+{
+	text-decoration: underline;
+}
