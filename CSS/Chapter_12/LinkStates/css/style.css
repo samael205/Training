@@ -1,0 +1,20 @@
+
+a.link:link
+{
+	color: red;
+}
+
+a.link:visited
+{
+	color: violet;
+}
+
+a.link:hover
+{
+	color: firebrick;
+}
+
+a.link:active
+{
+	color: black;
+}
