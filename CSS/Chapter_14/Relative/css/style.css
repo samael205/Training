@@ -1,0 +1,22 @@
+
+div.container
+{
+	border: 1px solid teal;
+}
+
+table
+{
+	border-collapse: collapse;				
+}
+
+th
+{
+	height: 40px;
+	vertical-align: middle;
+	padding: 5px;
+}
+
+td
+{
+	padding: 5px;
+}
