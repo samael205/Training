@@ -1,0 +1,21 @@
+
+body
+{
+	margin: 0px;
+}
+
+div
+{
+	background-color: silver;
+	width: 700px;
+	padding: 20px;
+	height: 300px;
+	overflow: auto;
+}
+
+p.content
+{
+	text-align: justify;
+	text-indent: 25px;
+	line-height: 1.8;
+}
