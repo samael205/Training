@@ -1,0 +1,19 @@
+
+body
+{
+	margin: 0px;
+}
+
+div.titleContainer
+{
+	position: sticky; top: 0px;
+	background-color: lightgreen;
+	padding: 30px 30px 0px 30px;
+}
+
+p.content
+{
+	text-align: justify;
+	text-indent: 25px;
+	line-height: 1.8;
+}
