@@ -1,0 +1,27 @@
+
+div.box
+{
+	padding: 20px;
+	overflow: auto;
+	border: 1px solid black;
+}
+
+div.box p
+{
+	text-align: justify;
+	text-indent: 25px;
+	line-height: 1.8;
+}
+
+div.box p img
+{
+	 width: 400px;
+	 height: auto;
+}
+
+img
+{
+	float: right;
+	margin: 40px;
+}
+
