@@ -1,0 +1,28 @@
+
+div
+{
+	border: 1px solid black;
+	padding: 20px;			
+}
+
+.clearfix::after
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+p.content
+{
+	text-align: justify;
+	text-indent: 25px;
+	line-height: 1.8;
+}
+
+p.content img
+{
+	float: right;
+	margin: 40px;
+	width: 400px;
+	height: auto;
+}
