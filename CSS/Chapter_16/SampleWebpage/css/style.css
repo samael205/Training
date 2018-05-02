@@ -1,0 +1,80 @@
+
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+}
+
+.header, .footer
+{
+	background-color: grey;
+	color: white;
+	padding: 15px;
+}
+
+.column
+{
+	float: left;
+	padding: 15px;
+}
+
+.clearfix::after
+{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.menu
+{
+	width: 25%;
+}
+
+.container
+{
+	width: 75%;
+}
+
+.menu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li
+{
+	padding: 8px;
+	margin-bottom: 8px;
+	background-color: lightblue;
+	color: black;
+}
+
+.menu li:hover
+{
+	background-color: blue;
+	color: white;
+}
+
+img
+{
+	float: right;
+	margin: 40px;
+}
+
+p.content
+{
+	text-align: justify;
+	text-indent: 25px;
+	line-height: 1.8;
+}
+
+p.content img
+{
+	width: 50%;
+	height: auto;
+}
