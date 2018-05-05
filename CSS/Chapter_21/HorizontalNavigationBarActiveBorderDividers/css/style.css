@@ -1,0 +1,62 @@
+
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+}
+
+p.columnContent
+{
+	text-align: justify;
+	text-indent: 25px;
+	line-height: 1.6;
+}
+
+div.menu ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	overflow: hidden;
+}
+
+div.menu ul li
+{
+	float: left;
+	border-right: 1px solid #BBB;
+}
+
+div.menu ul li:last-child
+{
+	border: none;
+}
+
+div.menu ul li a
+{
+	display: block;
+	color: white;
+	font-weight: bold;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+div.menu ul li a.active
+{
+	background-color: #0A0;
+}
+
+div.menu ul li a:hover:not(.active)
+{
+	background-color: #111;
+	color: white;
+}
+
+div.content
+{
+	padding: 40px;
+}
