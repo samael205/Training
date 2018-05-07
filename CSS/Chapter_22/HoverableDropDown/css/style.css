@@ -1,0 +1,21 @@
+
+.menuDropDown
+{
+	position: relative;
+	display: inline-block;
+}
+
+.menuDropDownContent
+{
+	display: none;
+	position: absolute;
+	background-color: #3333;
+	min-width: 160px;
+	padding: 12px 16px;
+	z-index: 1;
+}
+
+.menuDropDown:hover .menuDropDownContent
+{
+	display: block;
+}
