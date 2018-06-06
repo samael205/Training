@@ -1,0 +1,11 @@
+
+*
+{
+	margin: 0;
+}
+
+p[id^='para']
+{
+	background-color: tomato;
+	padding: 20px;
+}
