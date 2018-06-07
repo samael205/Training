@@ -3,62 +3,11 @@
 
 	<head>
 
-		<style type="text/css">
-
-			button[id^='fadeButton']
-			{
-				width: 100%;
-				padding: 10px;
-				background-color: #333;
-				font-weight: bold;
-				color: white;				
-				border: none;
-			}
-
-			div[id^='content']
-			{
-				padding: 40px;
-				background-color: #555;
-				font-weight: bold;
-				color: white;
-			}
-
-		</style>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		
-		<script type="text/javascript">
-
-			$(document).ready(function(){
-
-				var isDiv1Hidden = false;
-				var isDiv2Hidden = false;
-				var isDiv3Hidden = false;
-
-				$('#fadeButton1').click(function(){
-
-					$('#content1').slideToggle();
-					isDiv1Hidden = !isDiv1Hidden;
-
-				});
-
-				$('#fadeButton2').click(function(){
-
-					$('#content2').slideToggle('slow');
-					isDiv2Hidden = !isDiv2Hidden;
-
-				});
-
-				$('#fadeButton3').click(function(){
-
-					$('#content3').slideToggle(3000);
-					isDiv3Hidden = !isDiv3Hidden;
-
-				});
-
-			});
-
-
+		<script type="text/javascript" src="js/script.js">
 		</script>
 
 	</head>
