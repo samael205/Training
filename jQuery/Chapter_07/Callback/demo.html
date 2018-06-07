@@ -3,58 +3,11 @@
 
 	<head>
 
-		<style type="text/css">
-
-			#fadeButton
-			{
-				width: 100%;
-				padding: 10px;
-				background-color: #333;
-				font-weight: bold;
-				color: white;				
-				border: none;
-			}
-
-			#content
-			{
-				padding: 40px;
-				background-color: #555;
-				font-weight: bold;
-				color: white;
-			}
-
-		</style>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		
-		<script type="text/javascript">
-
-			$(document).ready(function(){
-
-				var isDivHidden = false;
-
-				$('#cancelButton').click(function(){
-
-					$('#content').stop();
-
-				});
-
-				$('#fadeButton').click(function(){
-
-
-					$('#content').slideToggle(3000, function(){
-
-						alert('Slide Completed');
-
-					});
-						
-					isDivHidden = !isDivHidden;
-
-				});
-
-			});
-
-
+		<script type="text/javascript" src="js/script.js">
 		</script>
 
 	</head>
