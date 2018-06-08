@@ -1,0 +1,18 @@
+
+#fadeButton
+{
+	width: 100%;
+	padding: 10px;
+	background-color: #333;
+	font-weight: bold;
+	color: white;				
+	border: none;
+}
+
+#content
+{
+	padding: 40px;
+	background-color: #555;
+	font-weight: bold;
+	color: white;
+}
