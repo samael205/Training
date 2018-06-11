@@ -1,0 +1,37 @@
+
+*
+{
+	box-sizing: border-box;
+	margin: auto;
+}
+
+#mainContainer
+{
+	width: 100%;
+	border: 1px solid black;
+}
+
+#innerContainer
+{
+	width: 60%;
+	padding: 50px;
+	background-color: tomato;
+	border-left-color: 1px solid black;
+}
+
+#content
+{
+	padding: 50px;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+table
+{
+	border-collapse: collapse;
+}
+
+td
+{
+		padding : 5px;
+}
