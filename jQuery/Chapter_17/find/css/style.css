@@ -1,0 +1,20 @@
+
+*
+{
+	padding: 25px;
+}
+
+body
+{
+	background-color: moccasin;				
+}
+
+#container
+{
+	border: 1px solid black;
+}
+
+#content
+{
+	background-color: blue;
+}
