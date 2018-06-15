@@ -1,0 +1,21 @@
+
+*
+{
+	padding: 25px;
+}
+
+body
+{
+	background-color: moccasin;				
+}
+
+[id^='container']
+{
+	border: 1px solid black;
+	margin: 20px 0px;
+}
+
+[id^='content']
+{
+	background-color: blue;
+}
