@@ -1,0 +1,21 @@
+# Bar Charts
+
+## Contents
+1. [Bar Chart](BarChart)
+2. [Bar Chart with Values on Bars](BarChartValues)
+3. [Bar Chart with Different Colors](BarChartColors)
+4. [Stacked Bar Chart](BarChartStacked)
+5. [Percentage Stacked Bar Chart](BarChartPercentageStacked)
+6. [Relative Stacked Bar Chart](BarChartRelativeStacked)
+7. [Material Bar Chart](MaterialBarChart)
+8. [Dual-X Charts](DualXChart)
+9. [Top-X Charts](TopXChart)
+10. [Animated Bar Chart](AnimatedBarChart)
+11. [Animated Bar Chart with Linear Easing Animation](AnimatedBarChartLinearEasing)
+12. [Animated Bar Chart with Ease In Animation](AnimatedBarChartEasingIn)
+13. [Animated Bar Chart with Ease Out Animation](AnimatedBarChartEasingOut)
+14. [Animated Bar Chart with Ease In and Out Animation](AnimatedBarChartEasingInAndOut)
+15. [Bar Chart with Background Color](BarChartBackgroundColor)
+16. [Vertical Bar Chart](VerticalBarChart)
+17. [Vertical Bar Chart Colors](VerticalBarChartColors)
+18. [Setting Default Font of Bar Chart](VerticalBarChartFont)
