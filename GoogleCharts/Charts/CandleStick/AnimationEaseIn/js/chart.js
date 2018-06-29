@@ -1,0 +1,32 @@
+
+google.charts.load('current', {'packages':['corechart']});
+google.charts.setOnLoadCallback(drawChart);
+
+function drawChart()
+{
+	var data = google.visualization.arrayToDataTable([
+
+		['Mon', 20, 28, 38, 45],
+		['Tue', 31, 38, 55, 66],
+		['Wed', 50, 55, 77, 80],
+		['Thu', 77, 77, 66, 50],
+		['Fri', 68, 66, 22, 15]
+
+		// Treat first row as data.
+	], true);
+
+	var options =
+	{
+		legend: 'none',
+		animation:
+		{
+			startup: true,
+			duration: 1000,
+			easing: 'in'
+		}
+	};
+
+	var chart = new google.visualization.CandlestickChart(document.getElementById('chartDiv'));
+
+	chart.draw(data, options);
+}		
